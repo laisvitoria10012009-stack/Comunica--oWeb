@@ -43,8 +43,8 @@ function App() {
   };
 
   return (
-    <div className="container" style={{ textAlign: 'center', padding: '20px' }}>
-      <h3> 🐶 Dog Viewer </h3>
+    <div className="container" >
+      <h3> 🐶 Dogs </h3>
 
       <button 
         onClick={buscarProximoDog} 
