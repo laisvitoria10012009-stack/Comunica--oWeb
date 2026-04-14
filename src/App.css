@@ -1,0 +1,85 @@
+body {
+height: 100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #a28470, #70594a); /* mais suave */
+margin: 0;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container {
+background: #fffefc75; /* mais clean */
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(41, 5, 5, 0.1);
+max-width: 600px;
+width: 100%;
+border-top: 5px solid #423221; /* azul mais bonito */
+transition: transform 0.3s ease;
+}
+
+.container:hover {
+transform: translateY(-3px);
+}
+
+h3 {
+color: #423221; /* azul mais elegante */
+text-align: center;
+margin-top: 0;
+font-weight: 600;
+}
+
+.info {
+background-color: #ffffff;
+padding: 15px;
+border-radius: 6px;
+margin-bottom: 20px;
+border-left: 4px solid #423221; /* combinando com topo */
+}
+
+button {
+background-color: #423221ad; /* azul mais vivo */
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+width: 100%;
+margin-top: 10px;
+transition: all 0.3s ease;
+box-shadow: 0 4px 10px rgba(249, 245, 161, 0.3);
+}
+
+button:hover:not(:disabled) {
+background-color: #3b3022; /* azul mais forte (fica bonito no hover) */
+transform: translateY(-2px);
+box-shadow: 0 6px 14px rgba(27, 10, 11, 0.4);
+}
+
+button:disabled {
+background-color: #ccc;
+cursor: not-allowed;
+}
+
+.resultado {
+margin-top: 20px;
+padding: 15px;
+background-color: #ffffff;
+border-left: 4px solid #423221;
+border-radius: 6px;
+min-height: 50px;
+}
+
+.resultado h3 {
+margin-top: 0;
+}
+
+.resultado p {
+margin: 10px 0;
+color: #323232; /* texto mais suave */
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+width: 200px;
+padding: 15px;
+border: 2px solid #997543;
+border-radius: 10px;
+text-align: center;
+background: rgb(255, 255, 255);
+}
+
+.card img {
+width: 100%;
+border-radius: 5px;
+}
+
+.gratis {
+font-weight: bold;
+}
+
+.promocao {
+color: green;
+font-weight: bold;
+}
+
+button {
+margin-top: 10px;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+
